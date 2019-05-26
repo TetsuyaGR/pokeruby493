@@ -1,3 +1,13 @@
+# About this branch
+
+As its name implies, this is the branch that I use to experiment with battle_backgrounds.
+
+I've currently changed the tall_grass, long_grass and building battle backgrounds.
+
+The last thing I did on this branch was look into the multiple palettes that the latter one has. For example, the battles against your Rival use one of the palettes of the building battle background.
+
+I don't think I'll do much else with this for now. It's something I started to work on in a whim, really.
+
 # Pokémon Ruby and Sapphire [![Build Status][travis-badge]][travis]
 
 This is a disassembly of Pokémon Ruby and Sapphire.
