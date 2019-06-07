@@ -96,6 +96,11 @@ const struct CompressedSpriteSheet gBallOpenParticleSpritesheets[] =
     {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6F5},
     {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6F6},
     {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6F7},
+
+    {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6F8},
+    {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6F9},
+    {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6FA},
+    {gBattleAnimSpriteSheet_Particles, 0x100, 0xD6FB},
 };
 
 extern const u8 gBattleAnimSpritePalette_136[];
@@ -113,6 +118,10 @@ const struct CompressedSpritePalette gBallOpenParticlePalettes[] =
     {gBattleAnimSpritePalette_136, 0xD6F5},
     {gBattleAnimSpritePalette_136, 0xD6F6},
     {gBattleAnimSpritePalette_136, 0xD6F7},
+    {gBattleAnimSpritePalette_136, 0xD6F8},
+    {gBattleAnimSpritePalette_136, 0xD6F9},
+    {gBattleAnimSpritePalette_136, 0xD6FA},
+    {gBattleAnimSpritePalette_136, 0xD6FB},
 };
 
 const union AnimCmd gSpriteAnim_840B318[] =
@@ -181,6 +190,10 @@ const u8 gBallOpenParticleAnimNums[] =
     5,
     4,
     4,
+	0,
+	0,
+	0,
+	0,
 };
 
 void PokeBallOpenParticleAnimation(u8);
@@ -322,6 +335,42 @@ const struct SpriteTemplate gSpriteTemplates_840B3B4[] =
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCallbackDummy,
     },
+    {
+        .tileTag = 55032,
+        .paletteTag = 55032,
+        .oam = &gOamData_837DF24,
+        .anims = gSpriteAnimTable_840B360,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    },
+    {
+        .tileTag = 55033,
+        .paletteTag = 55033,
+        .oam = &gOamData_837DF24,
+        .anims = gSpriteAnimTable_840B360,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    },
+    {
+        .tileTag = 55034,
+        .paletteTag = 55034,
+        .oam = &gOamData_837DF24,
+        .anims = gSpriteAnimTable_840B360,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    },
+    {
+        .tileTag = 55035,
+        .paletteTag = 55035,
+        .oam = &gOamData_837DF24,
+        .anims = gSpriteAnimTable_840B360,
+        .images = NULL,
+        .affineAnims = gDummySpriteAffineAnimTable,
+        .callback = SpriteCallbackDummy,
+    },
 };
 
 const u16 gUnknown_0840B4D4[] =
@@ -346,6 +395,10 @@ const u16 gUnknown_0840B4D4[] =
     0x0503,
     0x0506,
     0x0004,
+    0x7ADF,
+    0x7ADF,
+    0x7ADF,
+    0x7ADF,
 };
 
 static void sub_8141C30(struct Sprite *sprite);
@@ -673,6 +726,14 @@ u8 ball_number_to_ball_processing_index(u16 ballItem)
         return 10;
     case ITEM_PREMIER_BALL:
         return 11;
+    case ITEM_HEAL_BALL:
+        return 12;
+    case ITEM_QUICK_BALL:
+        return 13;
+    case ITEM_DUSK_BALL:
+        return 14;
+    case ITEM_CHERISH_BALL:
+        return 15;
     case ITEM_POKE_BALL:
     default:
         return 0;
@@ -794,7 +855,7 @@ static void sub_813FDC0(struct Sprite *sprite)
             sprite->callback = sub_813FE70;
             ballIndex = ball_number_to_ball_processing_index(gLastUsedItem);
             ballIndex2 = ballIndex;
-            if (ballIndex2 > 11)
+            if (ballIndex2 > 15)
                 return;
             if (ballIndex2 < 0)
                 return;
@@ -1214,7 +1275,7 @@ static void sub_81405F4(struct Sprite *sprite)
 
     ballIndex = ball_number_to_ball_processing_index(gLastUsedItem);
     ballIndex2 = ballIndex;
-    if (ballIndex2 > 11)
+    if (ballIndex2 > 15)
         goto LABEL;
     if (ballIndex2 < 0)
         goto LABEL;

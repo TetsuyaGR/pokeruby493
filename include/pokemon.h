@@ -229,8 +229,8 @@ struct PokemonSubstruct3
     /*0x01*/ u8 metLocation;
 
     /*0x02*/ u16 metLevel:7;
-    /*0x02*/ u16 metGame:4;
-    /*0x03*/ u16 pokeball:4;
+    /*0x02*/ u16 metGame:3;
+    /*0x03*/ u16 pokeball:5;
     /*0x03*/ u16 otGender:1;
 
     /*0x04*/ u32 hpIV:5;

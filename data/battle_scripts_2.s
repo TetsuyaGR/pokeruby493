@@ -23,6 +23,10 @@ gBattlescriptsForBallThrow:: @ 81D9E48
 	.4byte BattleScript_BallThrow
 	.4byte BattleScript_BallThrow
 	.4byte BattleScript_BallThrow
+	.4byte BattleScript_BallThrow
+	.4byte BattleScript_BallThrow
+	.4byte BattleScript_BallThrow
+	.4byte BattleScript_BallThrow
 
 gBattlescriptsForUsingItem:: @ 81D9E7C
 	.4byte BattleScript_PlayerUsesItem
