@@ -38,6 +38,10 @@ extern u8 gHealthboxIDs[];
 #define GFX_TAG_TIMERBALL   55009
 #define GFX_TAG_LUXURYBALL  55010
 #define GFX_TAG_PREMIERBALL 55011
+#define GFX_TAG_HEALBALL    55012
+#define GFX_TAG_QUICKBALL   55013
+#define GFX_TAG_DUSKBALL    55014
+#define GFX_TAG_CHERISHBALL 55015
 
 static const struct CompressedSpriteSheet sBallSpriteSheets[] =
 {
@@ -53,6 +57,10 @@ static const struct CompressedSpriteSheet sBallSpriteSheets[] =
     {gInterfaceGfx_TimerBall,   384, GFX_TAG_TIMERBALL},
     {gInterfaceGfx_LuxuryBall,  384, GFX_TAG_LUXURYBALL},
     {gInterfaceGfx_PremierBall, 384, GFX_TAG_PREMIERBALL},
+    {gInterfaceGfx_HealBall,    384, GFX_TAG_HEALBALL},
+    {gInterfaceGfx_QuickBall,   384, GFX_TAG_QUICKBALL},
+    {gInterfaceGfx_DuskBall,    384, GFX_TAG_DUSKBALL},
+    {gInterfaceGfx_CherishBall, 384, GFX_TAG_CHERISHBALL},
 };
 
 static const struct CompressedSpritePalette sBallSpritePalettes[] =
@@ -69,6 +77,10 @@ static const struct CompressedSpritePalette sBallSpritePalettes[] =
     {gInterfacePal_TimerBall,   GFX_TAG_TIMERBALL},
     {gInterfacePal_LuxuryBall,  GFX_TAG_LUXURYBALL},
     {gInterfacePal_PremierBall, GFX_TAG_PREMIERBALL},
+    {gInterfacePal_HealBall,    GFX_TAG_HEALBALL},
+    {gInterfacePal_QuickBall,   GFX_TAG_QUICKBALL},
+    {gInterfacePal_DuskBall,    GFX_TAG_DUSKBALL},
+    {gInterfacePal_CherishBall, GFX_TAG_CHERISHBALL},
 };
 
 static const struct OamData sBallOamData =
@@ -289,6 +301,42 @@ const struct SpriteTemplate gBallSpriteTemplates[] =
     {
         .tileTag = GFX_TAG_PREMIERBALL,
         .paletteTag = GFX_TAG_PREMIERBALL,
+        .oam = &sBallOamData,
+        .anims = sBallAnimSequences,
+        .images = NULL,
+        .affineAnims = sBallAffineAnimSequences,
+        .callback = objc_0804ABD4,
+    },
+    {
+        .tileTag = GFX_TAG_HEALBALL,
+        .paletteTag = GFX_TAG_HEALBALL,
+        .oam = &sBallOamData,
+        .anims = sBallAnimSequences,
+        .images = NULL,
+        .affineAnims = sBallAffineAnimSequences,
+        .callback = objc_0804ABD4,
+    },
+    {
+        .tileTag = GFX_TAG_QUICKBALL,
+        .paletteTag = GFX_TAG_QUICKBALL,
+        .oam = &sBallOamData,
+        .anims = sBallAnimSequences,
+        .images = NULL,
+        .affineAnims = sBallAffineAnimSequences,
+        .callback = objc_0804ABD4,
+    },
+    {
+        .tileTag = GFX_TAG_DUSKBALL,
+        .paletteTag = GFX_TAG_DUSKBALL,
+        .oam = &sBallOamData,
+        .anims = sBallAnimSequences,
+        .images = NULL,
+        .affineAnims = sBallAffineAnimSequences,
+        .callback = objc_0804ABD4,
+    },
+    {
+        .tileTag = GFX_TAG_CHERISHBALL,
+        .paletteTag = GFX_TAG_CHERISHBALL,
         .oam = &sBallOamData,
         .anims = sBallAnimSequences,
         .images = NULL,

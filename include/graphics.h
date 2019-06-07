@@ -24,8 +24,14 @@ extern const u8 gInterfaceGfx_TimerBall[];
 extern const u8 gInterfacePal_TimerBall[];
 extern const u8 gInterfaceGfx_LuxuryBall[];
 extern const u8 gInterfacePal_LuxuryBall[];
-extern const u8 gInterfaceGfx_PremierBall[];
-extern const u8 gInterfacePal_PremierBall[];
+extern const u8 gInterfaceGfx_HealBall[];
+extern const u8 gInterfacePal_HealBall[];
+extern const u8 gInterfaceGfx_QuickBall[];
+extern const u8 gInterfacePal_QuickBall[];
+extern const u8 gInterfaceGfx_DuskBall[];
+extern const u8 gInterfacePal_DuskBall[];
+extern const u8 gInterfaceGfx_CherishBall[];
+extern const u8 gInterfacePal_CherishBall[];
 extern const u8 gUnknown_08D030D0[];
 
 extern const u8 gUnknown_08D17144[];

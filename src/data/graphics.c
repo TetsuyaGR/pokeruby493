@@ -42,6 +42,14 @@ const u8 gInterfaceGfx_LuxuryBall[] = INCBIN_U8("graphics/interface/ball/luxury.
 const u8 gInterfacePal_LuxuryBall[] = INCBIN_U8("graphics/interface/ball/luxury.gbapal.lz");
 const u8 gInterfaceGfx_PremierBall[] = INCBIN_U8("graphics/interface/ball/premier.4bpp.lz");
 const u8 gInterfacePal_PremierBall[] = INCBIN_U8("graphics/interface/ball/premier.gbapal.lz");
+const u8 gInterfaceGfx_HealBall[] = INCBIN_U8("graphics/interface/ball/heal.4bpp.lz");
+const u8 gInterfacePal_HealBall[] = INCBIN_U8("graphics/interface/ball/heal.gbapal.lz");
+const u8 gInterfaceGfx_QuickBall[] = INCBIN_U8("graphics/interface/ball/quick.4bpp.lz");
+const u8 gInterfacePal_QuickBall[] = INCBIN_U8("graphics/interface/ball/quick.gbapal.lz");
+const u8 gInterfaceGfx_DuskBall[] = INCBIN_U8("graphics/interface/ball/dusk.4bpp.lz");
+const u8 gInterfacePal_DuskBall[] = INCBIN_U8("graphics/interface/ball/dusk.gbapal.lz");
+const u8 gInterfaceGfx_CherishBall[] = INCBIN_U8("graphics/interface/ball/cherish.4bpp.lz");
+const u8 gInterfacePal_CherishBall[] = INCBIN_U8("graphics/interface/ball/cherish.gbapal.lz");
 
 const u8 gUnknown_08D030D0[] = INCBIN_U8("graphics/interface/ball_open.4bpp.lz");
 const u8 gBlankGfxCompressed[] = INCBIN_U8("graphics/interface/blank.4bpp.lz");

@@ -1174,6 +1174,26 @@ static const u8 gItemDescription_ZapPlate[] = _(
     "boosts ELECTRIC-\n"
     "type moves.");
 
+static const u8 gItemDescription_HealBall[] = _(
+    "A BALL that fully\n"
+    "heals the POKéMON\n"
+    "it catches.");
+
+static const u8 gItemDescription_QuickBall[] = _(
+    "A BALL that works\n"
+    "best if it's used\n"
+    "on the first turn.");
+
+static const u8 gItemDescription_DuskBall[] = _(
+    "A BALL that works\n"
+    "better in caves or\n"
+    "during the night.");
+
+static const u8 gItemDescription_CherishBall[] = _(
+    "A rare BALL made\n"
+    "in commemoration\n"
+    "of some event.");
+
 static const u8 gItemDescription_RedScarf[] = _(
     "A hold item that\n"
     "raises COOL in\n"
