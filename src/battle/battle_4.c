@@ -15902,6 +15902,7 @@ void atkEF_handleballthrow(void)
     {
         u32 odds;
         u8 catch_rate;
+		u32 status = 0;
         if (gLastUsedItem == ITEM_SAFARI_BALL)
             catch_rate = gBattleStruct->unk16089 * 1275 / 100; //correct the name to safariFleeRate
         else
@@ -15943,8 +15944,17 @@ void atkEF_handleballthrow(void)
                 if (ball_multiplier > 40)
                     ball_multiplier = 40;
                 break;
+			case ITEM_QUICK_BALL:
+                if (gBattleResults.battleTurnCounter == 0)
+                    ball_multiplier = 50;
+                else
+                    ball_multiplier = 10;
+				break;
+			case ITEM_DUSK_BALL: // For now, this'll work as a regular Poké Ball.
             case ITEM_LUXURY_BALL:
             case ITEM_PREMIER_BALL:
+			case ITEM_HEAL_BALL:
+			case ITEM_CHERISH_BALL:
                 ball_multiplier = 10;
                 break;
             }
@@ -15976,6 +15986,11 @@ void atkEF_handleballthrow(void)
             MarkBufferBankForExecution(gActiveBattler);
             gBattlescriptCurrInstr = BattleScript_SuccessBallThrow;
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_POKEBALL, (const void*) &gLastUsedItem);
+            if (gLastUsedItem == ITEM_HEAL_BALL)
+            {
+                SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_HP, &gEnemyParty[gBattlerPartyIndexes[gBankTarget]].maxHP);
+                SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_STATUS, &status);
+            }
             if (CalculatePlayerPartyCount() == 6)
                 gBattleCommunication[MULTISTRING_CHOOSER] = 0;
             else
@@ -15995,6 +16010,11 @@ void atkEF_handleballthrow(void)
             {
                 gBattlescriptCurrInstr = BattleScript_SuccessBallThrow;
                 SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_POKEBALL, (const void*) &gLastUsedItem);
+				if (gLastUsedItem == ITEM_HEAL_BALL)
+				{
+					SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_HP, &gEnemyParty[gBattlerPartyIndexes[gBankTarget]].maxHP);
+					SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBankTarget]], MON_DATA_STATUS, &status);
+				}
                 if (CalculatePlayerPartyCount() == 6)
                     gBattleCommunication[MULTISTRING_CHOOSER] = 0;
                 else
