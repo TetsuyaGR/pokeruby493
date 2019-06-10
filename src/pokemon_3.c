@@ -50,7 +50,7 @@ extern struct SpindaSpot gSpindaSpotGraphics[];
 extern s8 gNatureStatTable[][5];
 extern u16 gTrainerBattleOpponent;
 extern u16 gBattleTypeFlags;
-extern u32 gTMHMLearnsets[][2];
+extern u32 gTMHMLearnsets[][4];
 extern u8 gBattleMonForms[];
 extern const u8 BattleText_Wally[];
 extern s8 gPokeblockFlavorCompatibilityTable[];
@@ -808,32 +808,32 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
         switch (i)
         {
         case 0:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_WEIGHT)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_WEIGHT)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_HP * multiplier + powerItemBoost;
             break;
         case 1:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_BRACER)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_BRACER)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_Attack * multiplier + powerItemBoost;
             break;
         case 2:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_BELT)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_BELT)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_Defense * multiplier + powerItemBoost;
             break;
         case 3:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_ANKLET)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_ANKLET)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_Speed * multiplier + powerItemBoost;
             break;
         case 4:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_LENS)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_LENS)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_SpAttack * multiplier + powerItemBoost;
             break;
         case 5:
-            if(holdEffect == HOLD_EFFECT_EV_BOOST && heldItem == ITEM_POWER_BAND)
+            if (holdEffect == HOLD_EFFECT_POWER_ITEM && heldItem == ITEM_POWER_BAND)
                 powerItemBoost = 4;
             evIncrease = gBaseStats[defeatedSpecies].evYield_SpDefense * multiplier + powerItemBoost;
             break;
@@ -1055,10 +1055,20 @@ u32 CanMonLearnTMHM(struct Pokemon *mon, u8 tm)
         u32 mask = 1 << tm;
         return gTMHMLearnsets[species][0] & mask;
     }
-    else
+    else if (tm < 64)
     {
         u32 mask = 1 << (tm - 32);
         return gTMHMLearnsets[species][1] & mask;
+    }
+    else if (tm < 96)
+    {
+        u32 mask = 1 << (tm - 64);
+        return gTMHMLearnsets[species][2] & mask;
+    }
+    else
+    {
+        u32 mask = 1 << (tm - 96);
+        return gTMHMLearnsets[species][3] & mask;
     }
 }
 

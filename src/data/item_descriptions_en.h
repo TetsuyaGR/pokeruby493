@@ -58,6 +58,71 @@ static const u8 gItemDescription_PremierBall[] = _(
     "in commemoration\n"
     "of some event.");
 
+static const u8 gItemDescription_LevelBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_LureBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_MoonBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_FriendBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_LoveBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_HeavyBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_FastBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_SportBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_HealBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_QuickBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_DuskBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_CherishBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ParkBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
 static const u8 gItemDescription_Potion[] = _(
     "Restores the HP of\n"
     "a POKéMON by\n"
@@ -181,30 +246,6 @@ static const u8 gItemDescription_LavaCookie[] = _(
     "that heals all\n"
     "status problems.");
 
-static const u8 gItemDescription_BlueFlute[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "POKéMON.");
-
-static const u8 gItemDescription_YellowFlute[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of confusion.");
-
-static const u8 gItemDescription_RedFlute[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of attraction.");
-
-static const u8 gItemDescription_BlackFlute[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "POKéMON.");
-
-static const u8 gItemDescription_WhiteFlute[] = _(
-    "A glass flute that\n"
-    "lures wild POKéMON.");
-
 static const u8 gItemDescription_BerryJuice[] = _(
     "A 100% pure juice\n"
     "that restores HP\n"
@@ -214,90 +255,6 @@ static const u8 gItemDescription_SacredAsh[] = _(
     "Fully revives and\n"
     "restores all\n"
     "fainted POKéMON.");
-
-static const u8 gItemDescription_ShoalSalt[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
-
-static const u8 gItemDescription_ShoalShell[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
-
-static const u8 gItemDescription_RedShard[] = _(
-    "A shard from an\n"
-    "ancient item.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_BlueShard[] = _(
-    "A shard from an\n"
-    "ancient item.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_YellowShard[] = _(
-    "A shard from an\n"
-    "ancient item.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_GreenShard[] = _(
-    "A shard from an\n"
-    "ancient item.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_MuscleBand[] = _(
-    "A headband that\n"
-    "boosts the power\n"
-    "of physical moves.");
-
-static const u8 gItemDescription_WiseGlasses[] = _(
-    "Pair of glasses\n"
-    "that boosts\n"
-    "special moves.");
-
-static const u8 gItemDescription_ExpertBelt[] = _(
-    "A belt that raises\n"
-    "the power of SUPER\n"
-    "EFFECTIVE moves.");
-
-static const u8 gItemDescription_FocusSash[] = _(
-    "A hold item that\n"
-    "prevents fainting\n"
-    "in one hit.");
-
-static const u8 gItemDescription_FullIncense[] = _(
-    "An exotic incense\n"
-    "that makes the user\n"
-    "bloated and slower.");
-
-static const u8 gItemDescription_LuckIncense[] = _(
-    "Doubles money in\n"
-    "battle if the holder\n"
-    "takes part.");
-
-static const u8 gItemDescription_OddIncense[] = _(
-    "A hold item that\n"
-    "boosts PSYCHIC-\n"
-    "type moves.");
-
-static const u8 gItemDescription_PureIncense[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "POKéMON.");
-
-static const u8 gItemDescription_RockIncense[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ROCK-type moves.");
-
-static const u8 gItemDescription_RoseIncense[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GRASS-type moves.");
-
-static const u8 gItemDescription_Honey[] = _(
-    "A sweet honey\n"
-    "with a lush aroma.");
 
 static const u8 gItemDescription_HPUp[] = _(
     "Raises the HP of\n"
@@ -323,30 +280,25 @@ static const u8 gItemDescription_Calcium[] = _(
     "SP. ATK of one\n"
     "POKéMON.");
 
-static const u8 gItemDescription_RareCandy[] = _(
-    "Raises the level\n"
-    "of a POKéMON by\n"
-    "one.");
+static const u8 gItemDescription_Zinc[] = _(
+    "Raises the stat\n"
+    "SP. DEF of one\n"
+    "POKéMON.");
 
 static const u8 gItemDescription_PPUp[] = _(
     "Raises the maximum\n"
     "PP of a selected\n"
     "move.");
 
-static const u8 gItemDescription_Zinc[] = _(
-    "Raises the stat\n"
-    "SP. DEF of one\n"
-    "POKéMON.");
-
 static const u8 gItemDescription_PPMax[] = _(
     "Raises the PP of a\n"
     "move to its maximum\n"
     "points.");
 
-static const u8 gItemDescription_LaggingTail[] = _(
-    "A hold item that\n"
-    "makes the user\n"
-    "bloated and slower");
+static const u8 gItemDescription_RareCandy[] = _(
+    "Raises the level\n"
+    "of a POKéMON by\n"
+    "one.");
 
 static const u8 gItemDescription_GuardSpec[] = _(
     "Prevents stat\n"
@@ -383,6 +335,11 @@ static const u8 gItemDescription_XSpecial[] = _(
     "SP. ATK during one\n"
     "battle.");
 
+static const u8 gItemDescription_XSpecialDefense[] = _(
+    "Raises the stat\n"
+    "SP. DEF during one\n"
+    "battle.");
+
 static const u8 gItemDescription_PokeDoll[] = _(
     "Use to flee from\n"
     "any battle with\n"
@@ -393,10 +350,64 @@ static const u8 gItemDescription_FluffyTail[] = _(
     "any battle with\n"
     "a wild POKéMON.");
 
-static const u8 gItemDescription_BigRoot[] = _(
-    "A hold item that\n"
-    "ups the effect of\n"
-    "absorbing moves.");
+static const u8 gItemDescription_BlueFlute[] = _(
+    "A glass flute that\n"
+    "awakens sleeping\n"
+    "POKéMON.");
+
+static const u8 gItemDescription_YellowFlute[] = _(
+    "A glass flute that\n"
+    "snaps POKéMON\n"
+    "out of confusion.");
+
+static const u8 gItemDescription_RedFlute[] = _(
+    "A glass flute that\n"
+    "snaps POKéMON\n"
+    "out of attraction.");
+
+static const u8 gItemDescription_BlackFlute[] = _(
+    "A glass flute that\n"
+    "keeps away wild\n"
+    "POKéMON.");
+
+static const u8 gItemDescription_WhiteFlute[] = _(
+    "A glass flute that\n"
+    "lures wild POKéMON.");
+
+static const u8 gItemDescription_ShoalSalt[] = _(
+    "Salt obtained from\n"
+    "deep inside the\n"
+    "SHOAL CAVE.");
+
+static const u8 gItemDescription_ShoalShell[] = _(
+    "A seashell found\n"
+    "deep inside the\n"
+    "SHOAL CAVE.");
+
+static const u8 gItemDescription_RedShard[] = _(
+    "A shard from an\n"
+    "ancient item.\n"
+    "Can be sold cheaply.");
+
+static const u8 gItemDescription_BlueShard[] = _(
+    "A shard from an\n"
+    "ancient item.\n"
+    "Can be sold cheaply.");
+
+static const u8 gItemDescription_YellowShard[] = _(
+    "A shard from an\n"
+    "ancient item.\n"
+    "Can be sold cheaply.");
+
+static const u8 gItemDescription_GreenShard[] = _(
+    "A shard from an\n"
+    "ancient item.\n"
+    "Can be sold cheaply.");
+
+static const u8 gItemDescription_Repel[] = _(
+    "Repels weak wild\n"
+    "POKéMON for 100\n"
+    "steps.");
 
 static const u8 gItemDescription_SuperRepel[] = _(
     "Repels weak wild\n"
@@ -412,41 +423,6 @@ static const u8 gItemDescription_EscapeRope[] = _(
     "Use to escape\n"
     "instantly from a\n"
     "cave or a dungeon.");
-
-static const u8 gItemDescription_Repel[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 100\n"
-    "steps.");
-
-static const u8 gItemDescription_PowerWeight[] = _(
-    "A hold item that\n"
-    "promotes HP gain,\n"
-    "but reduces SPEED.");
-
-static const u8 gItemDescription_PowerBracer[] = _(
-    "A hold item that\n"
-    "promotes ATK gain,\n"
-    "but reduces SPEED.");
-
-static const u8 gItemDescription_PowerBelt[] = _(
-    "A hold item that\n"
-    "promotes DEF gain,\n"
-    "but reduces SPEED.");
-
-static const u8 gItemDescription_PowerAnklet[] = _(
-    "A hold item that\n"
-    "promotes SPD gain,\n"
-    "but reduces SPEED.");
-
-static const u8 gItemDescription_PowerLens[] = _(
-    "An item that boosts\n"
-    "SP. ATK gain, but\n"
-    "reduces SPEED.");
-
-static const u8 gItemDescription_PowerBand[] = _(
-    "An item that boosts\n"
-    "SP. DEF gain, but\n"
-    "reduces SPEED.");
 
 static const u8 gItemDescription_SunStone[] = _(
     "Makes certain\n"
@@ -492,85 +468,6 @@ static const u8 gItemDescription_ShinyStone[] = _(
     "Makes certain\n"
     "species of POKéMON\n"
     "evolve.");
-
-static const u8 gItemDescription_TinyMushroom[] = _(
-    "A plain, ordinary\n"
-    "mushroom.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_BigMushroom[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
-
-static const u8 gItemDescription_Pearl[] = _(
-    "A pretty pearl.\n"
-    "Can be sold cheaply.");
-
-static const u8 gItemDescription_BigPearl[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
-
-static const u8 gItemDescription_Stardust[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
-
-static const u8 gItemDescription_StarPiece[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
-
-static const u8 gItemDescription_Nugget[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
-
-static const u8 gItemDescription_HeartScale[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
-
-static const u8 gItemDescription_DubiousDisc[] = _(
-    "Certain POKéMON\n"
-    "love it. It's over-\n"
-    "flowing with data.");
-
-static const u8 gItemDescription_Electirizer[] = _(
-    "A certain POKéMON\n"
-    "loves it. It's full\n"
-    "of electricity.");
-
-static const u8 gItemDescription_Magmarizer[] = _(
-    "A certain POKéMON\n"
-    "loves it. It's full\n"
-    "of magma energy.");
-
-static const u8 gItemDescription_OvalStone[] = _(
-    "Helps a certain\n"
-    "POKéMON to evolve.\n"
-    "Looks like an egg.");
-
-static const u8 gItemDescription_Protector[] = _(
-    "It's loved by a\n"
-    "certain POKéMON.\n"
-    "It's pretty heavy.");
-
-static const u8 gItemDescription_RazorClaw[] = _(
-    "Helps a certain\n"
-    "POKéMON to evolve.\n"
-    "It's a sharp claw.");
-
-static const u8 gItemDescription_RazorFang[] = _(
-    "Helps a certain\n"
-    "POKéMON to evolve.\n"
-    "It's a sharp fang.");
-
-static const u8 gItemDescription_ReaperCloth[] = _(
-    "A certain POKéMON\n"
-    "loves it. It's imbued\n"
-    "with strong energy.");
 
 static const u8 gItemDescription_OrangeMail[] = _(
     "A ZIGZAGOON-print\n"
@@ -847,19 +744,145 @@ static const u8 gItemDescription_EnigmaBerry[] = _(
     "Plant in loamy soil\n"
     "to grow a mystery.");
 
-static const u8 gItemDescription_AdamantOrb[] = _(
-    "An orb to be held by\n"
-    "DIALGA. It brights\n"
-    "gleamingly.");
+static const u8 gItemDescription_OccaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
 
-static const u8 gItemDescription_LustrousOrb[] = _(
-    "An orb to be held by\n"
-    "PALKIA. It brights\n"
-    "beautifully.");
+static const u8 gItemDescription_PasshoBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
 
-static const u8 gItemDescription_GriseousOrb[] = _(
-    "A glowing orb to be\n"
-    "held by GIRATINA.");
+static const u8 gItemDescription_WacanBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_RindoBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_YacheBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ChopleBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_KebiaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ShucaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_CobaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_PayapaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TangaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ChartiBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_KasibBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_HabanBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ColburBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_BabiriBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ChilanBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_MicleBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_CustapBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_JabocaBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_RowapBerry[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_RedApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_BlueApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_YellowApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_GreenApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_PinkApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_WhiteApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_BlackApricorn[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
 
 static const u8 gItemDescription_BrightPowder[] = _(
     "A hold item that\n"
@@ -1067,7 +1090,7 @@ static const u8 gItemDescription_ShellBell[] = _(
 
 static const u8 gItemDescription_SeaIncense[] = _(
     "A hold item that\n"
-    "slightly boosts\n"
+    "raises the power of\n"
     "WATER-type moves.");
 
 static const u8 gItemDescription_LaxIncense[] = _(
@@ -1093,6 +1116,196 @@ static const u8 gItemDescription_Stick[] = _(
     "A stick of leek.\n"
     "It can be sold\n"
     "cheaply.");
+
+static const u8 gItemDescription_RedScarf[] = _(
+    "A hold item that\n"
+    "raises COOL in\n"
+    "CONTESTS.");
+
+static const u8 gItemDescription_BlueScarf[] = _(
+    "A hold item that\n"
+    "raises BEAUTY in\n"
+    "CONTESTS.");
+
+static const u8 gItemDescription_PinkScarf[] = _(
+    "A hold item that\n"
+    "raises CUTE in\n"
+    "CONTESTS.");
+
+static const u8 gItemDescription_GreenScarf[] = _(
+    "A hold item that\n"
+    "raises SMART in\n"
+    "CONTESTS.");
+
+static const u8 gItemDescription_YellowScarf[] = _(
+    "A hold item that\n"
+    "raises TOUGH in\n"
+    "CONTESTS.");
+
+static const u8 gItemDescription_WideLens[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_MuscleBand[] = _(
+    "A headband that\n"
+    "boosts the power\n"
+    "of physical moves.");
+
+static const u8 gItemDescription_WiseGlasses[] = _(
+    "Pair of glasses\n"
+    "that boosts\n"
+    "special moves.");
+
+static const u8 gItemDescription_ExpertBelt[] = _(
+    "A belt that raises\n"
+    "the power of SUPER\n"
+    "EFFECTIVE moves.");
+
+static const u8 gItemDescription_LightClay[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_PowerHerb[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_LifeOrb[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_FlameOrb[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ToxicOrb[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_QuickPowder[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_FocusSash[] = _(
+    "A hold item that\n"
+    "prevents fainting\n"
+    "in one hit.");
+
+static const u8 gItemDescription_ZoomLens[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_Metronome[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_IronBall[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_LaggingTail[] = _(
+    "A hold item that\n"
+    "makes the user\n"
+    "bloated and slower");
+
+static const u8 gItemDescription_DestinyKnot[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_BlackSludge[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_IcyRock[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_SmoothRock[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_HeatRock[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_DampRock[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_GripClaw[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ChoiceScarf[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_StickyBarb[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_PowerWeight[] = _(
+    "A hold item that\n"
+    "promotes HP gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerBracer[] = _(
+    "A hold item that\n"
+    "promotes ATK gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerBelt[] = _(
+    "A hold item that\n"
+    "promotes DEF gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerAnklet[] = _(
+    "A hold item that\n"
+    "promotes SPD gain,\n"
+    "but reduces SPEED.");
+
+static const u8 gItemDescription_PowerLens[] = _(
+    "An item that boosts\n"
+    "SP. ATK gain, but\n"
+    "reduces SPEED.");
+
+static const u8 gItemDescription_PowerBand[] = _(
+    "An item that boosts\n"
+    "SP. DEF gain, but\n"
+    "reduces SPEED.");
+
+static const u8 gItemDescription_ShedShell[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_BigRoot[] = _(
+    "A hold item that\n"
+    "ups the effect of\n"
+    "absorbing moves.");
+
+static const u8 gItemDescription_ChoiceSpecs[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
 
 static const u8 gItemDescription_DracoPlate[] = _(
     "A stone tablet that\n"
@@ -1174,173 +1387,142 @@ static const u8 gItemDescription_ZapPlate[] = _(
     "boosts ELECTRIC-\n"
     "type moves.");
 
-static const u8 gItemDescription_RedScarf[] = _(
+static const u8 gItemDescription_FullIncense[] = _(
+    "An exotic incense\n"
+    "that makes the user\n"
+    "bloated and slower.");
+
+static const u8 gItemDescription_LuckIncense[] = _(
+    "Doubles money in\n"
+    "battle if the holder\n"
+    "takes part.");
+
+static const u8 gItemDescription_OddIncense[] = _(
     "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+    "boosts PSYCHIC-\n"
+    "type moves.");
 
-static const u8 gItemDescription_BlueScarf[] = _(
+static const u8 gItemDescription_PureIncense[] = _(
     "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+    "helps repel wild\n"
+    "POKéMON.");
 
-static const u8 gItemDescription_PinkScarf[] = _(
+static const u8 gItemDescription_RockIncense[] = _(
     "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+    "raises the power of\n"
+    "ROCK-type moves.");
 
-static const u8 gItemDescription_GreenScarf[] = _(
+static const u8 gItemDescription_RoseIncense[] = _(
     "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+    "raises the power of\n"
+    "GRASS-type moves.");
 
-static const u8 gItemDescription_YellowScarf[] = _(
+static const u8 gItemDescription_WaveIncense[] = _(
     "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
+    "raises the power of\n"
+    "WATER-type moves.");
 
-static const u8 gItemDescription_MachBike[] = _(
-    "A folding bicycle\n"
-    "that more than\n"
-    "doubles foot speed.");
+static const u8 gItemDescription_OvalStone[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "Looks like an egg.");
 
-static const u8 gItemDescription_CoinCase[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+static const u8 gItemDescription_Protector[] = _(
+    "It's loved by a\n"
+    "certain POKéMON.\n"
+    "It's pretty heavy.");
 
-static const u8 gItemDescription_Itemfinder[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+static const u8 gItemDescription_Electirizer[] = _(
+    "A certain POKéMON\n"
+    "loves it. It's full\n"
+    "of electricity.");
 
-static const u8 gItemDescription_OldRod[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+static const u8 gItemDescription_Magmarizer[] = _(
+    "A certain POKéMON\n"
+    "loves it. It's full\n"
+    "of magma energy.");
 
-static const u8 gItemDescription_GoodRod[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+static const u8 gItemDescription_DubiousDisc[] = _(
+    "Certain POKéMON\n"
+    "love it. It's over-\n"
+    "flowing with data.");
 
-static const u8 gItemDescription_SuperRod[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+static const u8 gItemDescription_ReaperCloth[] = _(
+    "A certain POKéMON\n"
+    "loves it. It's imbued\n"
+    "with strong energy.");
 
-static const u8 gItemDescription_SSTicket[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+static const u8 gItemDescription_RazorClaw[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "It's a sharp claw.");
 
-static const u8 gItemDescription_ContestPass[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+static const u8 gItemDescription_RazorFang[] = _(
+    "Helps a certain\n"
+    "POKéMON to evolve.\n"
+    "It's a sharp fang.");
 
-static const u8 gItemDescription_WailmerPail[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+static const u8 gItemDescription_TinyMushroom[] = _(
+    "A plain, ordinary\n"
+    "mushroom.\n"
+    "Can be sold cheaply.");
 
-static const u8 gItemDescription_DevonGoods[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+static const u8 gItemDescription_BigMushroom[] = _(
+    "A rare mushroom\n"
+    "that would sell at a\n"
+    "high price.");
 
-static const u8 gItemDescription_SootSack[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+static const u8 gItemDescription_Pearl[] = _(
+    "A pretty pearl.\n"
+    "Can be sold cheaply.");
 
-static const u8 gItemDescription_BasementKey[] = _(
-    "The key for NEW\n"
-    "MAUVILLE beneath\n"
-    "MAUVILLE CITY.");
+static const u8 gItemDescription_BigPearl[] = _(
+    "A lovely large pearl\n"
+    "that would sell at a\n"
+    "high price.");
 
-static const u8 gItemDescription_AcroBike[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+static const u8 gItemDescription_Stardust[] = _(
+    "Beautiful red sand.\n"
+    "Can be sold at a\n"
+    "high price.");
 
-static const u8 gItemDescription_PokeblockCase[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+static const u8 gItemDescription_StarPiece[] = _(
+    "A red gem shard.\n"
+    "It would sell for a\n"
+    "very high price.");
 
-static const u8 gItemDescription_Letter[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+static const u8 gItemDescription_Nugget[] = _(
+    "A nugget of pure\n"
+    "gold. Can be sold at\n"
+    "a high price.");
 
-static const u8 gItemDescription_EonTicket[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+static const u8 gItemDescription_HeartScale[] = _(
+    "A lovely scale.\n"
+    "It is coveted by\n"
+    "collectors.");
 
-static const u8 gItemDescription_RedOrb[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+static const u8 gItemDescription_Honey[] = _(
+    "A sweet honey\n"
+    "with a lush aroma.");
 
-static const u8 gItemDescription_BlueOrb[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+static const u8 gItemDescription_OddKeystone[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
 
-static const u8 gItemDescription_Scanner[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+static const u8 gItemDescription_AdamantOrb[] = _(
+    "An orb to be held by\n"
+    "DIALGA. It brights\n"
+    "gleamingly.");
 
-static const u8 gItemDescription_GoGoggles[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+static const u8 gItemDescription_LustrousOrb[] = _(
+    "An orb to be held by\n"
+    "PALKIA. It brights\n"
+    "beautifully.");
 
-static const u8 gItemDescription_Meteorite[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
-
-static const u8 gItemDescription_Room1Key[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
-
-static const u8 gItemDescription_Room2Key[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
-
-static const u8 gItemDescription_Room4Key[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
-
-static const u8 gItemDescription_Room6Key[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
-
-static const u8 gItemDescription_StorageKey[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
-
-static const u8 gItemDescription_RootFossil[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
-
-static const u8 gItemDescription_ClawFossil[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
-
-static const u8 gItemDescription_DevonScope[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+static const u8 gItemDescription_GriseousOrb[] = _(
+    "A glowing orb to be\n"
+    "held by GIRATINA.");
 
 static const u8 gItemDescription_TM01[] = _(
     "Powerful, but makes\n"
@@ -1592,6 +1774,216 @@ static const u8 gItemDescription_TM50[] = _(
     "attack, but sharply\n"
     "lowers SP. ATK.");
 
+static const u8 gItemDescription_TM51[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM52[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM53[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM54[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM55[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM56[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM57[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM58[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM59[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM60[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM61[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM62[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM63[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM64[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM65[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM66[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM67[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM68[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM69[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM70[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM71[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM72[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM73[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM74[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM75[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM76[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM77[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM78[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM79[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM80[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM81[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM82[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM83[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM84[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM85[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM86[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM87[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM88[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM89[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM90[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM91[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_TM92[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
 static const u8 gItemDescription_HM01[] = _(
     "Attacks the foe\n"
     "with sharp blades\n"
@@ -1631,5 +2023,173 @@ static const u8 gItemDescription_HM08[] = _(
     "Dives underwater\n"
     "the 1st turn, then\n"
     "attacks next turn.");
+
+static const u8 gItemDescription_MachBike[] = _(
+    "A folding bicycle\n"
+    "that more than\n"
+    "doubles foot speed.");
+
+static const u8 gItemDescription_CoinCase[] = _(
+    "A case that holds\n"
+    "up to 9,999 COINS.");
+
+static const u8 gItemDescription_Itemfinder[] = _(
+    "A device that\n"
+    "signals an invisible\n"
+    "item by sound.");
+
+static const u8 gItemDescription_OldRod[] = _(
+    "Use by any body of\n"
+    "water to fish for\n"
+    "wild POKéMON.");
+
+static const u8 gItemDescription_GoodRod[] = _(
+    "A decent fishing\n"
+    "rod for catching\n"
+    "wild POKéMON.");
+
+static const u8 gItemDescription_SuperRod[] = _(
+    "The best fishing\n"
+    "rod for catching\n"
+    "wild POKéMON.");
+
+static const u8 gItemDescription_SSTicket[] = _(
+    "The ticket required\n"
+    "for sailing on a\n"
+    "ferry.");
+
+static const u8 gItemDescription_ContestPass[] = _(
+    "The pass required\n"
+    "for entering\n"
+    "POKéMON CONTESTS.");
+
+static const u8 gItemDescription_WailmerPail[] = _(
+    "A tool used for\n"
+    "watering BERRIES\n"
+    "and plants.");
+
+static const u8 gItemDescription_DevonGoods[] = _(
+    "A package that\n"
+    "contains DEVON's\n"
+    "machine parts.");
+
+static const u8 gItemDescription_SootSack[] = _(
+    "A sack used to\n"
+    "gather and hold\n"
+    "volcanic ash.");
+
+static const u8 gItemDescription_BasementKey[] = _(
+    "The key for NEW\n"
+    "MAUVILLE beneath\n"
+    "MAUVILLE CITY.");
+
+static const u8 gItemDescription_AcroBike[] = _(
+    "A folding bicycle\n"
+    "capable of jumps\n"
+    "and wheelies.");
+
+static const u8 gItemDescription_PokeblockCase[] = _(
+    "A case for holding\n"
+    "{POKEBLOCK}S made with\n"
+    "a BERRY BLENDER.");
+
+static const u8 gItemDescription_Letter[] = _(
+    "A letter to STEVEN\n"
+    "from the PRESIDENT\n"
+    "of the DEVON CORP.");
+
+static const u8 gItemDescription_EonTicket[] = _(
+    "The ticket for a\n"
+    "ferry to a distant\n"
+    "southern island.");
+
+static const u8 gItemDescription_RedOrb[] = _(
+    "A red, glowing orb\n"
+    "said to contain an\n"
+    "ancient power.");
+
+static const u8 gItemDescription_BlueOrb[] = _(
+    "A blue, glowing orb\n"
+    "said to contain an\n"
+    "ancient power.");
+
+static const u8 gItemDescription_Scanner[] = _(
+    "A device found\n"
+    "inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_GoGoggles[] = _(
+    "Nifty goggles that\n"
+    "protect eyes from\n"
+    "desert sandstorms.");
+
+static const u8 gItemDescription_Meteorite[] = _(
+    "A meteorite found\n"
+    "at METEOR FALLS.");
+
+static const u8 gItemDescription_Room1Key[] = _(
+    "A key that opens a\n"
+    "door inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_Room2Key[] = _(
+    "A key that opens a\n"
+    "door inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_Room4Key[] = _(
+    "A key that opens a\n"
+    "door inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_Room6Key[] = _(
+    "A key that opens a\n"
+    "door inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_StorageKey[] = _(
+    "The key to the\n"
+    "storage inside the\n"
+    "ABANDONED SHIP.");
+
+static const u8 gItemDescription_DomeFossil[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_HelixFossil[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_OldAmber[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_ClawFossil[] = _(
+    "A fossil of an\n"
+    "ancient, seafloor-\n"
+    "dwelling POKéMON.");
+
+static const u8 gItemDescription_RootFossil[] = _(
+    "A fossil of an\n"
+    "ancient, seafloor-\n"
+    "dwelling POKéMON.");
+
+static const u8 gItemDescription_ArmorFossil[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_SkullFossil[] = _(
+    "Dummy\n"
+    "text\n"
+    "lmao.");
+
+static const u8 gItemDescription_DevonScope[] = _(
+    "A device by DEVON\n"
+    "that signals any\n"
+    "unseeable POKéMON.");
 
 static const u8 gItemDescription_Dummy[] = _("");
