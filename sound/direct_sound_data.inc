@@ -2247,6 +2247,74 @@ Cry_GiratinaO::
 	.incbin "sound/direct_sound_samples/cries/cry_giratina.bin"
 
 	.align 2
+Cry_ArceusFighting::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusFlying::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusPoison::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusGround::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusRock::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusBug::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusGhost::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusSteel::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusMystery::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusFire::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusWater::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusGrass::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusElectric::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusPsychic::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusIce::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusDragon::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
+Cry_ArceusDark::
+	.incbin "sound/direct_sound_samples/cries/cry_arceus.bin"
+
+	.align 2
 DirectSoundWaveData_Phoneme_Vowel7:: @ 8639898
 	.incbin "sound/direct_sound_samples/phonemes/vowel_7.bin"
 
